@@ -48,3 +48,15 @@ input{
     font-size: 25px;
 }
 
+.button1 {
+    margin: 2px;
+}
+
+.Final {
+    position: absolute;  
+    text-align: center;
+    top: 95%;
+    right: 10px;
+
+    
+}
