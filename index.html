@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice de Masa Corporal</title>
+</head>
+<body>
+    <h1>¡Proyecto final para Progamando Py!</h1>
+    <div class="container">
+        <div class="primer-paso">
+            <p>Pulse el boton para cacular su IMC</p>
+            <button onclick="avanzar(1,2)">Iniciar</button>
+        </div>
+        <div class="segundo-paso">
+            <h3>Calculadora de IMC</h3>
+            <hr>
+            <label for="peso">Ingrese su peso:</label>
+            <input type="number" placeholder="Peso en kg" id="peso">
+            <br><br>
+            <label for="altura">Ingrese su altura:</label>
+            <input type="number" placeholder="Ingrese su altura" id="altura">
+            <br><br>
+            <button onclick="validacion()">Calcular</button>
+        </div>
+        <div class="ultimo-paso">
+            <h3>Resultado</h3>
+            <hr>
+            <p id="resultado"></p>
+            <hr><br>
+            <button onclick="avanzar(3,2)">Calcular Nuevamente</button>
+            <button onclick="avanzar(3,1)">Finalizar</button>
+        </div>
+    </div>
+</body>
+</html>
